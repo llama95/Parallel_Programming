@@ -8,5 +8,5 @@
 The efficiency for this one is confusing, we have 10 cores to use but only 4 of them are considered workers because the other 6 cores aren’t being used. So you would think that our efficiency is: t1/P(Tp) = 30/(4(15)) = 1
 3f. To get 10x speedup, both of the units of work from the serial regions would need to be added to the parallel region and the time of each work task would need to be changed to 3 seconds. We would also need to have 6 processors to process our data. 
 Efficiency: t1/P(Tp) = 18/(6(3)) = 1	
-4a. The minimum possible latency is the smallest amount of time the processor can take to complete a memory fetch, in this can it is the smallest amount of measurable time. If only one clock cycle is required by the memory module to read the memory location, the CPU will only need to wait one clock cycle.
+4a. The minimum possible latency is the smallest amount of time the processor can take to complete a memory fetch, in this can it is the smallest amount of measurable time. If only one clock cycle is required by the memory module to read the memory location, the CPU will only need to wait three clock cycles.
 4b. 256bits X 3x10^9 = 9.6 gb/s																																																																																																																																																								
