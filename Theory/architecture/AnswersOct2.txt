@@ -1,0 +1,8 @@
+1. fgets,freads, and fscans are the 3 functions mentioned in class…
+
+fgets reads in a string from the selected open file stops at the newline
+freads reads bytes/raw data from the selected open file stops after a specific number of bytes
+fscans reads input according to a specific string format
+2. The stack is setup in LIFO order with the most recently used space of memory being next to a free space of memory. You only need to adjust a single pointer to free/reclaim a memory space. The heap allocates memory by freeing/allocating a space of memory that is specified by the user. A memory space must be specifically called to be reclaimed, making the memory allocation of a heap a messy task.
+3. I believe modern programming languages aren’t losing functionality by not having structs. The use of classes and objects in modern languages allows the flexibility to get/set the values of objects so they are more easily useable within the rest of the program.
+4. C implements object like logic through the usage of structs. 
